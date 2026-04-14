@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sre-agent-src", "sre-agent-src", "{783D5ECA-7D6E-B5B1-C3B1-0961551955DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D2AD4CA7-F7B5-F2EA-C7A0-3ABB58136000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogApi", "sre-agent-src\src\CatalogApi\CatalogApi.csproj", "{E2C85E29-028B-3BD3-A585-0DCB294FB7C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2C85E29-028B-3BD3-A585-0DCB294FB7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C85E29-028B-3BD3-A585-0DCB294FB7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C85E29-028B-3BD3-A585-0DCB294FB7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C85E29-028B-3BD3-A585-0DCB294FB7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2AD4CA7-F7B5-F2EA-C7A0-3ABB58136000} = {783D5ECA-7D6E-B5B1-C3B1-0961551955DC}
+		{E2C85E29-028B-3BD3-A585-0DCB294FB7C9} = {D2AD4CA7-F7B5-F2EA-C7A0-3ABB58136000}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FC86B31-5D05-4200-9131-DBF9B7B381C3}
+	EndGlobalSection
+EndGlobal
